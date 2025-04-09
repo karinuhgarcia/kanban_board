@@ -1,4 +1,4 @@
-# 14 Full-Stack React: Kanban Board with JWT Authentication
+# Full-Stack React: Kanban Board with JWT Authentication
 
 ## 📝 Overview
 
@@ -6,9 +6,8 @@ This project is a secure, full-stack Kanban board application built with React, 
 
 This was built to fulfill Challenge #14 of the Full-Stack Bootcamp curriculum.
 
-
-**🔗 Deployed on Render:** [Insert Render App URL]  
-**💻 GitHub Repo:** [Insert GitHub Repo URL]
+**🔗 Deployed on Render:** [(https://kanban-board-ymqk.onrender.com)]  
+**💻 GitHub Repo:** [(https://github.com/karinuhgarcia/kanban_board)]
 
 ## Technologies Used
 Frontend: React, Vite
@@ -28,11 +27,12 @@ git clone the repository
 npm run install
 
 # Create a .env in /server/
-DB_NAME=kanban_db
-DB_USER=your_postgres_username
-DB_PASSWORD=your_postgres_password
-JWT_SECRET_KEY=some_random_secret_key
-PORT=3001
+
+-DB_NAME=kanban_db
+- DB_USER=your_postgres_username
+- DB_PASSWORD=your_postgres_password
+- JWT_SECRET_KEY=some_random_secret_key
+- PORT=3001
 
 # Seed the Database
 npm run seed
